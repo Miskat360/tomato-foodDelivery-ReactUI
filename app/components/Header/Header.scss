@@ -1,0 +1,17 @@
+.container{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)), url('../../assets/images/header_img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-contaniner{
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
